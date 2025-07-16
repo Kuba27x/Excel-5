@@ -1,126 +1,192 @@
-Excel-5
+# ⌨️ Excel-5
 
-Project Description
+![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
+![Excel](https://img.shields.io/badge/Microsoft-Excel-blue.svg)
 
-Excel-5 is a guide to basic keyboard shortcuts in Excel. Here you'll find practical tips, instructions, and illustrations about using keyboard shortcuts, function keys and inserting bullet points.
+## ✨ Project Description
 
-Table of Contents 
+**Excel-5** is a guide to basic keyboard shortcuts in Excel. Here you'll find practical tips, instructions, and illustrations about using keyboard shortcuts, function keys and inserting bullet points.
 
-Link to official documentation: https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f
+> 📚 **Goal:** Help you work faster and smarter in Excel—boosting your efficiency for everyday tasks!
 
-Basic
+---
 
-Select any cell in range then press CTRL + a to select entire range.
+## 📒 Table of Contents
 
-![screenshot](Screenshots/CtrlA.png)
+- [Basic Shortcuts](#-basic-shortcuts)
+- [Moving in Excel](#-moving-in-excel)
+- [Selecting Ranges](#-selecting-ranges)
+- [Sum Function](#-sum-function)
+- [Formatting Cells](#-formatting-cells)
+- [Function Keys](#-function-keys)
+- [Inserting/Deleting Rows & Cells](#-insertingdeleting-rows--cells)
+- [Bullet Points](#-bullet-points)
+- [Custom Number Format](#-custom-number-format)
+- [Screenshots](#-screenshots)
+- [Requirements](#-requirements)
+- [Author](#-author)
 
-(Note: if you press CTRL + a one more time Excel selects the entire sheet)
+---
 
-To copy the range, press CTRL + c (to cut a range, press CTRL + x).
-Press CTRL + v to paste this range.
+[Official documentation: Keyboard shortcuts in Excel](https://support.microsoft.com/en-us/office/keyboard-shortcuts-in-excel-1798d9d5-842a-42b8-9c99-9b7213f0040f)
 
-![screenshot](Screenshots/CtrlX.png)
+---
 
-(Note: To undo this operation, press CTRL + z)
+## ⌨️ Basic Shortcuts
 
-Moving
+Select any cell in a range, then press `CTRL + A` to select the entire range.
 
-Select cell B2
+![CtrlA](Screenshots/CtrlA.png)
+*Selecting a range with CTRL+A*
 
-![screenshot](Screenshots/Move.png)
+> 📝 **Tip:** Press `CTRL + A` again to select the entire sheet!
 
-To quickly move to the bottom of the range, hold down CTRL and press ↓
+Copy (`CTRL + C`), cut (`CTRL + X`), and paste (`CTRL + V`) ranges quickly.
 
-![screenshot](Screenshots/Move1.png)
+![CtrlX](Screenshots/CtrlX.png)
+*Cutting a range*
 
-To quickly move to the right of the range, hold down CTRL and press →
+> ℹ️ **Undo:** Press `CTRL + Z` to revert actions.
 
-![screenshot](Screenshots/Move2.png)
+---
 
-Selecting
+## 🚀 Moving in Excel
 
-To select range A1:B3 using shortcuts, select cell A1 and then hold down SHIFT and press ↓ two times, then hold down SHIFT and press → one time.
+Select cell B2:
 
-![screenshot](Screenshots/Select.png)
+![Move](Screenshots/Move.png)
 
-(Note: To quickly select a column of data, press CTRL + SHIFT + ↓)
-(Note: use CTRL + SHIFT + → to quickly select a row of data.)
+To move quickly:
+- Hold `CTRL` and press ↓ to jump to the bottom of the range.
+- Hold `CTRL` and press → to jump to the right of the range.
 
-Sum
+![Move1](Screenshots/Move1.png)
+![Move2](Screenshots/Move2.png)
 
-Select cell B6. To quickly insert the SUM function, press ALT + =, and press Enter.
+---
 
-![screenshot](Screenshots/Formula.png)
+## 📐 Selecting Ranges
 
-You can fill a formula right by pressing CTRL + r.
+To select a range (e.g., A1:B3) using shortcuts:
+1. Select cell A1.
+2. Hold `SHIFT` and press ↓ twice.
+3. Hold `SHIFT` and press → once.
 
-![screenshot](Screenshots/CtrlR.png)
+![Select](Screenshots/Select.png)
 
-(Note: To fill a formula down, press CTRL + d)
+> 📝 **Tip:**  
+> - `CTRL + SHIFT + ↓` selects a column of data.  
+> - `CTRL + SHIFT + →` selects a row of data.
 
-Formatting
+---
 
-To launch the Format cells dialog box, press CTRL + 1.
-Press TAB and press ↓ twice to select the Currency format.
-Press Enter.
+## ➕ Sum Function
 
-![screenshot](Screenshots/Format.png)
+Select cell B6. Quickly insert the SUM function with `ALT + =`, then press Enter.
 
-(Note: To quickly bold a range, select the range and press CTRL + b)
+![Formula](Screenshots/Formula.png)
 
-Function Keys
+You can fill a formula right by pressing `CTRL + R`.
 
-F1 - Opens Excel Help.
-F2 - Moves the insertion point to the end of the contents of the active cell.
-F3 - Displays the Paste Name dialog box.
-F4 - Cycles through all 4 types of cell references (absolute, mixed reference (2x) and relative).
-F5 - Displays the Go To dialog box.
-F6 - Moves to the next pane in a worksheet that has been split.
-F7 - Displays the Spelling dialog box.
-F8 - Turns on/off Extend mode.
-F9 - Calculates all open workbooks.
-F10 - Shows the key tips (the same as pressing ALT).
-F11 - Creates a chart sheet of a selected range.
-F12 - Brings up the Save As dialog box.
+![CtrlR](Screenshots/CtrlR.png)
 
-Inserting/Deleting
+> ℹ️ **Fill Down:** Press `CTRL + D` to fill a formula down.
 
-In order to insert row or multiple rows exectute the following steps:
-Select row or multiple rows.
+---
 
-![screenshot](Screenshots/Insert.png)
+## 🎨 Formatting Cells
 
-Press CTRL SHIFT +.
+Launch the Format Cells dialog with `CTRL + 1`.  
+Press `TAB`, press ↓ twice to select Currency format, then Enter.
 
-![screenshot](Screenshots/Insert1.png)
+![Format](Screenshots/Format.png)
 
-(Note: You can insert single cells the same way. Select cell -> Press CTRL SHIFT + -> Excel automatically selects "Shift cells down". Click OK.)
-(Note: To delete row or rows select single or multiple rows then press CTRL -. You can also delete sigle cells this way.)
+> 📝 **Bold:** Select the range and press `CTRL + B` to quickly bold cells.
 
-Bullet Points
+---
 
-To insert a filled round bullet point, press Alt + Numpad 7.
-(Note: You may need to have NumLock turned on.)
+## 🖱️ Function Keys
 
-![screenshot](Screenshots/AltEnter.png)
+| Key | Action |
+|-----|--------|
+| **F1** | Opens Excel Help |
+| **F2** | Moves insertion point to end of active cell |
+| **F3** | Displays Paste Name dialog |
+| **F4** | Cycles cell reference types |
+| **F5** | Displays Go To dialog |
+| **F6** | Moves to next pane in split worksheet |
+| **F7** | Spelling dialog |
+| **F8** | Extend mode toggle |
+| **F9** | Calculates all open workbooks |
+| **F10** | Shows key tips (ALT) |
+| **F11** | Creates chart sheet |
+| **F12** | Save As dialog |
 
-(Note: press Alt + Enter to start a new line in an Excel cell.)
+---
 
-Custom Number Format
+## ➕➖ Inserting/Deleting Rows & Cells
+
+To insert rows:
+1. Select row(s).
+2. Press `CTRL + SHIFT + +`.
+
+![Insert](Screenshots/Insert.png)
+![Insert1](Screenshots/Insert1.png)
+
+> ℹ️ **Insert cells:** Select cell → `CTRL + SHIFT + +` → Excel selects "Shift cells down". Click OK.
+
+To delete rows/cells:
+- Select rows/cells, then press `CTRL + -`.
+
+---
+
+## • Bullet Points
+
+To insert a filled round bullet:
+- Press `Alt + Numpad 7`.
+- NumLock may need to be turned on.
+
+![AltEnter](Screenshots/AltEnter.png)
+
+> 📝 **New Line:** Press `Alt + Enter` to start a new line in a cell.
+
+---
+
+## 🔢 Custom Number Format
 
 1. Select range C2:C6.
-2. Right click, and then click Format Cells.
+2. Right-click, choose Format Cells.
 3. Select Custom.
-4. In the Type box, press Alt + Numpad 7 to insert a bullet point, enter a space and type @.
+4. In Type, press `Alt + Numpad 7` for bullet, enter space, then `@`.
 5. Click OK.
 
-![screenshot](Screenshots/Format1.png)
+![Format1](Screenshots/Format1.png)
+*Now you can create a bulleted list by typing items!*
 
-(Note: You can now create a bulleted list by simply typing the list items.)
+![Result](Screenshots/Result.png)
 
-![screenshot](Screenshots/Result.png)
+> ℹ️ **No Numpad?** On Insert tab, in Symbols group, click Symbol.
 
-If you don't have a number pad, on the Insert tab, in the Symbols group, click Symbol.
+![Symbols](Screenshots/Symbols.png)
 
-![screenshot](Screenshots/Symbols.png)
+---
 
+## 📷 Screenshots
+
+All screenshots are available in the `/Screenshots` folder.
+
+---
+
+## ℹ️ Requirements
+
+- Microsoft Excel (all modern versions)
+- Windows OS recommended for shortcuts
+
+---
+
+## 👨‍💻 Author
+
+Project and documentation by **Kuba27x**  
+Repository: [Kuba27x/Excel-5](https://github.com/Kuba27x/Excel-5)
+
+---
