@@ -161,6 +161,7 @@ To insert a filled round bullet:
 5. Click OK.
 
 ![Format1](Screenshots/Format1.png)
+
 *Now you can create a bulleted list by typing items!*
 
 ![Result](Screenshots/Result.png)
